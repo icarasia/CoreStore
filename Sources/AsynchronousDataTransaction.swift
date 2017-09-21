@@ -210,7 +210,7 @@ public final class AsynchronousDataTransaction: BaseDataTransaction {
             group.leave()
         }
         group.wait()
-        self.context.reset()
+//        self.context.reset()
     }
     
     
