@@ -271,14 +271,14 @@ public enum ValueContainer<O: CoreStoreObject> {
             
             self.init(
                 keyPath,
-                initial: `default`,
+                initial: `default`(),
                 isIndexed: isIndexed,
                 isTransient: isTransient,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
                 customGetter: customGetter,
                 customSetter: customSetter,
-                affectedByKeyPaths: affectedByKeyPaths
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
     }
@@ -496,14 +496,14 @@ public enum ValueContainer<O: CoreStoreObject> {
             
             self.init(
                 keyPath,
-                initial: `default`,
+                initial: `default`(),
                 isIndexed: isIndexed,
                 isTransient: isTransient,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
                 customGetter: customGetter,
                 customSetter: customSetter,
-                affectedByKeyPaths: affectedByKeyPaths
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
     }

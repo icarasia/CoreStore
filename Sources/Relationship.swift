@@ -105,9 +105,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 keyPath: keyPath,
                 inverseKeyPath: { nil },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -140,9 +140,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 keyPath: keyPath,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -175,9 +175,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 keyPath: keyPath,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -210,9 +210,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 keyPath: keyPath,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -355,9 +355,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 maxCount: maxCount,
                 inverseKeyPath: { nil },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -396,9 +396,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 maxCount: maxCount,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -437,9 +437,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 maxCount: maxCount,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -478,9 +478,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 maxCount: maxCount,
                 inverseKeyPath: { inverse(D.meta).keyPath },
                 deleteRule: deleteRule,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -629,9 +629,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 deleteRule: deleteRule,
                 minCount: minCount,
                 maxCount: maxCount,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -670,9 +670,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 deleteRule: deleteRule,
                 minCount: minCount,
                 maxCount: maxCount,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -711,9 +711,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 deleteRule: deleteRule,
                 minCount: minCount,
                 maxCount: maxCount,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
@@ -752,9 +752,9 @@ public enum RelationshipContainer<O: CoreStoreObject> {
                 deleteRule: deleteRule,
                 minCount: minCount,
                 maxCount: maxCount,
-                versionHashModifier: versionHashModifier,
-                renamingIdentifier: renamingIdentifier,
-                affectedByKeyPaths: affectedByKeyPaths
+                versionHashModifier: versionHashModifier(),
+                renamingIdentifier: renamingIdentifier(),
+                affectedByKeyPaths: affectedByKeyPaths()
             )
         }
         
